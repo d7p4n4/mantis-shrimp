@@ -50,6 +50,8 @@ body {
 
 img {
   width: 100%;
+  max-width: 720px;
+  position: relative;
   height: auto;
   padding: 0;
   margin: 0;
@@ -67,6 +69,8 @@ h1 {
   font-size: 1.3rem;
   font-family: Raleway;
   font-weight: bold;
+  max-width: 720px;
+  position: relative;
 }
 
 .lead {
@@ -138,4 +142,28 @@ footer {
 
 a {
   color: aqua;
+}
+
+@media (min-width: 720px) {
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  .lead {
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: -6.5rem;
+  }
+  
+  img, h1 {
+    left: calc(50% - 360px);
+  }
 }
