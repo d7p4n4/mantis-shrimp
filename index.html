@@ -5,11 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="main.css"
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 </head>
 <body>
 
-  <img src="http://i.imgur.com/tPT0bDo.jpg" alt="Mantis shrimp">
+  <img src="assets/shrimp.webp" alt="Mantis shrimp">
   
   <h1>True facts about the mantis shrimp</h1>
   <p class="lead">Mantis shrimps are predators which kill their prey by hitting them at high speed. They have large complex eyes and are highly coloured.</p>
@@ -46,9 +48,21 @@
     </tr>
   </table>
   
+  <div rel="overlay" class="btn">
+    <p class="video">Video</p>
+  </div>
+  
   <hr>
   
   <footer>Source: <a href="https://simple.wikipedia.org/wiki/Mantis_shrimp" target="_blank">Wikipedia</a></footer>
-
+  
+  <div class="wrapper">
+    <div class="overlay">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DtNAqK_V-lg" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="x-btn">X</div>
+    </div>
+  </div>
 </body>
 </html>
