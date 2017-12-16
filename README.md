@@ -4,7 +4,7 @@ This webpage is about mantis shrimp. It contains the most interesting infos abou
 # Built with:
 Html5,
 CSS,
-Bootstrap (but just the video. The other elements were fully designed by own CSS rules.),
+Bootstrap (But just the video was designed by that. The other elements were fully designed by my own CSS rules.),
 javaScript,
 jQuery,
 
